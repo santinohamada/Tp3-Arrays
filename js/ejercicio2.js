@@ -27,7 +27,7 @@ nombres.push("Paris");
 document.write(`
 <li> El elemento en la ultima posicion: ${nombres[nombres.length - 1]} </li>
 </ul>`);
-
+nombres.splice(1,0,"Barcelona");
 document.write(`<h1>Arreglo de ciudades </h1>`);
 document.write(`<ul>`);
 for (let i = 0; i < nombres.length; i++) {
